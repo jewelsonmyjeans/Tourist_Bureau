@@ -3,6 +3,12 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
   text-align: center;
   line-height: 7.5em;
@@ -31,4 +37,11 @@ p {
     flex-direction: column;
     width: 75%;
     margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #f2f2f2;
+    margin-top: auto;
 }
